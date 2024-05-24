@@ -1,0 +1,31 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Host=localhost;Port=5432;Database=indiveTest;Username=postgres;Password=root"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "JWT": {
+    "Issuer": "http://localhost:5246",
+    "Audience": "http://localhost:5246",
+    "SigningKey": "https://www.youtube.com/watch?v=lZu9XcZit2Y&list=PL82C6-O4XrHcjpGzpxAVqumv2PaYGIJfz&index=3"
+  },
+  "EmailSettings": {
+    "SmtpServer": "smtp.mailtrap.io",
+    "SmtpPort": 2525,
+    "SmtpUsername": "ff7ef570e55b51",
+    "SmtpPassword": "1c8975a05f8d91",
+    "FromEmail": "indivetest@example.com",
+    "FromName": "Indive Test"
+  },
+  "Authentication":{
+    "Google":{
+      "ClientId": "",
+      "ClientSecret": ""
+    }
+  }
+}
